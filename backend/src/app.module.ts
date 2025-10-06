@@ -6,9 +6,10 @@ import { TrainingPlanModule } from './training-plans/training-plan.module';
 import { WorkoutsModule } from './no-spec/workouts/workouts.module';
 import { WorkoutsModule } from './workouts/workouts.module';
 import { ActivitiesModule } from './activities/activities.module';
+import { ExercisesModule } from './exercises/exercises.module';
 
 @Module({
-  imports: [UsersModule, TrainingPlanModule, WorkoutsModule, ActivitiesModule],
+  imports: [UsersModule, TrainingPlanModule, WorkoutsModule, ActivitiesModule, ExercisesModule],
   controllers: [AppController],
   providers: [AppService],
 })
